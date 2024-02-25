@@ -25,3 +25,11 @@
  i{
     color: #fff;
  }
+
+.row p{
+font-size: 20px;    
+    }
+
+.img-thumbnail{
+    border: 1px;
+}
