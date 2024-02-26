@@ -1,60 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-
-.carousel-item{
+/*Ajuste en imagen de nav*/
+.navbar-brand img {
+    height: 2rem;
+    margin-left: 15px;
+}
+/*Ajuste de carousel*/
+.carousel-item {
     height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;
     background-size: cover;
 }
-
-.navbar-brand img{
-    height: 2rem;
-    margin-left: 15px;
- }
-
-#quienes-somos{
+/*bg a seccion quienes somos*/
+#quienes-somos {
     background-color: black;
-    }
+}
 
- i{
+i {
     color: #fff;
- }
+}
 
-.row p{
-font-size: 20px;    
-    }
+.row p {
+    font-size: 20px;
+}
 
-.img-thumbnail{
+.img-thumbnail {
     border: 1px;
-}
-
-tool-tip{
-    background-color: color;
-    position: absolute;
-    z-index: 1;
-    pointer-events: none;
-    user-select: none;
-
-    font-size: 1rem;
-    border-radius: 8px;
-
-    top: 100%;
-    left: 12,5%;
-
-    opacity: 0;
-    transition: opacity .3s ease-out;
-}
-
-:has(> tool-tip) {
-    position: relative;
-}
-
-:has(> tool-tip):hover tool-tip{
-    opacity: 1;
 }
